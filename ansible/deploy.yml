@@ -5,7 +5,7 @@
    tasks:
     - name: Copy WAR file
       copy:
-        src: "/var/snap/jenkins/"
+        src: "/var/snap/jenkins/4874/workspace/My03/target/My03.war"
         dest: "/opt/tomcat/webapps/My03.war"
         remote_src: no
         
